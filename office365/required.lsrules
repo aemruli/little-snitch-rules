@@ -1,0 +1,1659 @@
+{
+  "description": "Microsoft Online",
+  "name": "microsoft",
+  "rules": [
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.6.152/31",
+        "13.107.18.10/31",
+        "13.107.128.0/22",
+        "23.103.160.0/20",
+        "40.96.0.0/13",
+        "40.104.0.0/15",
+        "52.96.0.0/14",
+        "131.253.33.215/32",
+        "132.245.0.0/16",
+        "150.171.32.0/22",
+        "204.79.197.215/32",
+        "2603:1006::/40",
+        "2603:1016::/36",
+        "2603:1026::/36",
+        "2603:1036::/36",
+        "2603:1046::/36",
+        "2603:1056::/36",
+        "2603:1096::/38",
+        "2603:1096:400::/40",
+        "2603:1096:600::/40",
+        "2603:1096:a00::/39",
+        "2603:1096:c00::/40",
+        "2603:10a6:200::/40",
+        "2603:10a6:400::/40",
+        "2603:10a6:600::/40",
+        "2603:10a6:800::/40",
+        "2603:10d6:200::/40",
+        "2620:1ec:4::152/128",
+        "2620:1ec:4::153/128",
+        "2620:1ec:c::10/128",
+        "2620:1ec:c::11/128",
+        "2620:1ec:d::10/128",
+        "2620:1ec:d::11/128",
+        "2620:1ec:8f0::/46",
+        "2620:1ec:900::/46",
+        "2620:1ec:a92::152/128",
+        "2620:1ec:a92::153/128",
+        "2a01:111:f400::/48"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "outlook.office.com",
+        "outlook.office365.com"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.6.152/31",
+        "13.107.18.10/31",
+        "13.107.128.0/22",
+        "23.103.160.0/20",
+        "40.96.0.0/13",
+        "40.104.0.0/15",
+        "52.96.0.0/14",
+        "131.253.33.215/32",
+        "132.245.0.0/16",
+        "150.171.32.0/22",
+        "204.79.197.215/32",
+        "2603:1006::/40",
+        "2603:1016::/36",
+        "2603:1026::/36",
+        "2603:1036::/36",
+        "2603:1046::/36",
+        "2603:1056::/36",
+        "2603:1096::/38",
+        "2603:1096:400::/40",
+        "2603:1096:600::/40",
+        "2603:1096:a00::/39",
+        "2603:1096:c00::/40",
+        "2603:10a6:200::/40",
+        "2603:10a6:400::/40",
+        "2603:10a6:600::/40",
+        "2603:10a6:800::/40",
+        "2603:10d6:200::/40",
+        "2620:1ec:4::152/128",
+        "2620:1ec:4::153/128",
+        "2620:1ec:c::10/128",
+        "2620:1ec:c::11/128",
+        "2620:1ec:d::10/128",
+        "2620:1ec:d::11/128",
+        "2620:1ec:8f0::/46",
+        "2620:1ec:900::/46",
+        "2620:1ec:a92::152/128",
+        "2620:1ec:a92::153/128",
+        "2a01:111:f400::/48"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "outlook.office.com",
+        "outlook.office365.com"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "587",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.6.152/31",
+        "13.107.18.10/31",
+        "13.107.128.0/22",
+        "23.103.160.0/20",
+        "40.96.0.0/13",
+        "40.104.0.0/15",
+        "52.96.0.0/14",
+        "131.253.33.215/32",
+        "132.245.0.0/16",
+        "150.171.32.0/22",
+        "204.79.197.215/32",
+        "2603:1006::/40",
+        "2603:1016::/36",
+        "2603:1026::/36",
+        "2603:1036::/36",
+        "2603:1046::/36",
+        "2603:1056::/36",
+        "2603:1096::/38",
+        "2603:1096:400::/40",
+        "2603:1096:600::/40",
+        "2603:1096:a00::/39",
+        "2603:1096:c00::/40",
+        "2603:10a6:200::/40",
+        "2603:10a6:400::/40",
+        "2603:10a6:600::/40",
+        "2603:10a6:800::/40",
+        "2603:10d6:200::/40",
+        "2620:1ec:4::152/128",
+        "2620:1ec:4::153/128",
+        "2620:1ec:c::10/128",
+        "2620:1ec:c::11/128",
+        "2620:1ec:d::10/128",
+        "2620:1ec:d::11/128",
+        "2620:1ec:8f0::/46",
+        "2620:1ec:900::/46",
+        "2620:1ec:a92::152/128",
+        "2620:1ec:a92::153/128",
+        "2a01:111:f400::/48"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "587",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "smtp.office365.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "r1.res.office365.com",
+        "r3.res.office365.com",
+        "r4.res.office365.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "r1.res.office365.com",
+        "r3.res.office365.com",
+        "r4.res.office365.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.outlook.com",
+        "*.outlook.office.com",
+        "attachments.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.outlook.com",
+        "*.outlook.office.com",
+        "attachments.office.net"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "40.92.0.0/15",
+        "40.107.0.0/16",
+        "52.100.0.0/14",
+        "52.238.78.88/32",
+        "104.47.0.0/17",
+        "2a01:111:f403::/48"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.protection.outlook.com"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "25",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "40.92.0.0/15",
+        "40.107.0.0/16",
+        "52.100.0.0/14",
+        "104.47.0.0/17",
+        "2a01:111:f400::/48",
+        "2a01:111:f403::/48"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "25",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.mail.protection.outlook.com"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "3478",
+      "protocol": "udp",
+      "remote-Addresses": [
+        "13.107.64.0/18",
+        "52.112.0.0/14",
+        "52.120.0.0/14"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "3479",
+      "protocol": "udp",
+      "remote-Addresses": [
+        "13.107.64.0/18",
+        "52.112.0.0/14",
+        "52.120.0.0/14"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "3480",
+      "protocol": "udp",
+      "remote-Addresses": [
+        "13.107.64.0/18",
+        "52.112.0.0/14",
+        "52.120.0.0/14"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "3481",
+      "protocol": "udp",
+      "remote-Addresses": [
+        "13.107.64.0/18",
+        "52.112.0.0/14",
+        "52.120.0.0/14"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.64.0/18",
+        "52.112.0.0/14",
+        "52.120.0.0/14",
+        "52.238.119.141/32",
+        "52.244.160.207/32",
+        "2603:1027::/48",
+        "2603:1037::/48",
+        "2603:1047::/48",
+        "2603:1057::/48",
+        "2620:1ec:6::/48",
+        "2620:1ec:40::/42"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.lync.com",
+        "*.teams.microsoft.com",
+        "teams.microsoft.com"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.64.0/18",
+        "52.112.0.0/14",
+        "52.120.0.0/14",
+        "52.238.119.141/32",
+        "52.244.160.207/32",
+        "2603:1027::/48",
+        "2603:1037::/48",
+        "2603:1047::/48",
+        "2603:1057::/48",
+        "2620:1ec:6::/48",
+        "2620:1ec:40::/42"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.lync.com",
+        "*.teams.microsoft.com",
+        "teams.microsoft.com"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.64.0/18",
+        "52.112.0.0/14",
+        "52.120.0.0/14",
+        "52.238.119.141/32",
+        "52.244.160.207/32",
+        "2603:1027::/48",
+        "2603:1037::/48",
+        "2603:1047::/48",
+        "2603:1057::/48",
+        "2620:1ec:6::/48",
+        "2620:1ec:40::/42"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.broadcast.skype.com",
+        "broadcast.skype.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.sfbassets.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.sfbassets.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.keydelivery.mediaservices.windows.net",
+        "*.msecnd.net",
+        "*.streaming.mediaservices.windows.net",
+        "ajax.aspnetcdn.com",
+        "mlccdn.blob.core.windows.net"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "aka.ms",
+        "amp.azure.net"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.msedge.net",
+        "compass-ssl.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.mstea.ms",
+        "*.secure.skypeassets.com",
+        "mlccdnprod.azureedge.net",
+        "videoplayercdn.osi.office.net"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.136.0/22",
+        "40.108.128.0/17",
+        "52.104.0.0/14",
+        "104.146.128.0/17",
+        "150.171.40.0/22",
+        "2620:1ec:8f8::/46",
+        "2620:1ec:908::/46",
+        "2a01:111:f402::/48"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.sharepoint.com"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.136.0/22",
+        "40.108.128.0/17",
+        "52.104.0.0/14",
+        "104.146.128.0/17",
+        "150.171.40.0/22",
+        "2620:1ec:8f8::/46",
+        "2620:1ec:908::/46",
+        "2a01:111:f402::/48"
+      ]
+    },
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.sharepoint.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.wns.windows.com",
+        "admin.onedrive.com",
+        "officeclient.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.wns.windows.com",
+        "admin.onedrive.com",
+        "officeclient.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "g.live.com",
+        "oneclient.sfx.ms"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "g.live.com",
+        "oneclient.sfx.ms"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.sharepointonline.com",
+        "cdn.sharepointonline.com",
+        "privatecdn.sharepointonline.com",
+        "publiccdn.sharepointonline.com",
+        "spoprod-a.akamaihd.net",
+        "static.sharepointonline.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.sharepointonline.com",
+        "cdn.sharepointonline.com",
+        "privatecdn.sharepointonline.com",
+        "publiccdn.sharepointonline.com",
+        "spoprod-a.akamaihd.net",
+        "static.sharepointonline.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.svc.ms",
+        "*-files.sharepoint.com",
+        "*-myfiles.sharepoint.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/OneDrive.app\\/Contents\\/MacOS\\/OneDrive",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.svc.ms",
+        "*-files.sharepoint.com",
+        "*-myfiles.sharepoint.com"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.6.171/32",
+        "13.107.18.15/32",
+        "13.107.140.6/32",
+        "52.108.0.0/14",
+        "52.238.106.116/32",
+        "52.244.37.168/32",
+        "52.244.203.72/32",
+        "52.244.207.172/32",
+        "52.244.223.198/32",
+        "52.247.150.191/32",
+        "2603:1010:2::cb/128",
+        "2603:1010:200::c7/128",
+        "2603:1020:200::682f:a0fd/128",
+        "2603:1020:201:9::c6/128",
+        "2603:1020:600::a1/128",
+        "2603:1020:700::a2/128",
+        "2603:1020:800:2::6/128",
+        "2603:1020:900::8/128",
+        "2603:1030:7::749/128",
+        "2603:1030:800:5::bfee:ad3c/128",
+        "2603:1030:f00::17/128",
+        "2603:1030:1000::21a/128",
+        "2603:1040:200::4f3/128",
+        "2603:1040:401::762/128",
+        "2603:1040:601::60f/128",
+        "2603:1040:a01::1e/128",
+        "2603:1040:c01::28/128",
+        "2603:1040:e00:1::2f/128",
+        "2603:1040:f00::1f/128",
+        "2603:1050:1::cd/128",
+        "2620:1ec:c::15/128",
+        "2620:1ec:8fc::6/128",
+        "2620:1ec:a92::171/128",
+        "2a01:111:f100:2000::a83e:3019/128",
+        "2a01:111:f100:2002::8975:2d79/128",
+        "2a01:111:f100:2002::8975:2da8/128",
+        "2a01:111:f100:7000::6fdd:6cd5/128",
+        "2a01:111:f100:a004::bfeb:88cf/128"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.officeapps.live.com",
+        "*.online.office.com",
+        "office.live.com"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "13.107.6.171/32",
+        "13.107.18.15/32",
+        "13.107.140.6/32",
+        "52.108.0.0/14",
+        "52.238.106.116/32",
+        "52.244.37.168/32",
+        "52.244.203.72/32",
+        "52.244.207.172/32",
+        "52.244.223.198/32",
+        "52.247.150.191/32",
+        "2603:1010:2::cb/128",
+        "2603:1010:200::c7/128",
+        "2603:1020:200::682f:a0fd/128",
+        "2603:1020:201:9::c6/128",
+        "2603:1020:600::a1/128",
+        "2603:1020:700::a2/128",
+        "2603:1020:800:2::6/128",
+        "2603:1020:900::8/128",
+        "2603:1030:7::749/128",
+        "2603:1030:800:5::bfee:ad3c/128",
+        "2603:1030:f00::17/128",
+        "2603:1030:1000::21a/128",
+        "2603:1040:200::4f3/128",
+        "2603:1040:401::762/128",
+        "2603:1040:601::60f/128",
+        "2603:1040:a01::1e/128",
+        "2603:1040:c01::28/128",
+        "2603:1040:e00:1::2f/128",
+        "2603:1040:f00::1f/128",
+        "2603:1050:1::cd/128",
+        "2620:1ec:c::15/128",
+        "2620:1ec:8fc::6/128",
+        "2620:1ec:a92::171/128",
+        "2a01:111:f100:2000::a83e:3019/128",
+        "2a01:111:f100:2002::8975:2d79/128",
+        "2a01:111:f100:2002::8975:2da8/128",
+        "2a01:111:f100:7000::6fdd:6cd5/128",
+        "2a01:111:f100:a004::bfeb:88cf/128"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.officeapps.live.com",
+        "*.online.office.com",
+        "office.live.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.cdn.office.net",
+        "contentstorage.osi.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.onenote.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*cdn.onenote.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "ajax.aspnetcdn.com",
+        "apis.live.net",
+        "cdn.optimizely.com",
+        "officeapps.live.com",
+        "www.onedrive.com"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "20.190.128.0/18",
+        "40.126.0.0/18",
+        "2603:1006:2000::/48",
+        "2603:1007:200::/48",
+        "2603:1016:1400::/48",
+        "2603:1017::/48",
+        "2603:1026:3000::/48",
+        "2603:1027:1::/48",
+        "2603:1036:3000::/48",
+        "2603:1037:1::/48",
+        "2603:1046:2000::/48",
+        "2603:1047:1::/48",
+        "2603:1056:2000::/48",
+        "2603:1057:2::/48"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.msftidentity.com",
+        "*.msidentity.com",
+        "account.activedirectory.windowsazure.com",
+        "accounts.accesscontrol.windows.net",
+        "adminwebservice.microsoftonline.com",
+        "api.passwordreset.microsoftonline.com",
+        "autologon.microsoftazuread-sso.com",
+        "becws.microsoftonline.com",
+        "clientconfig.microsoftonline-p.net",
+        "companymanager.microsoftonline.com",
+        "device.login.microsoftonline.com",
+        "graph.microsoft.com",
+        "graph.windows.net",
+        "login.microsoft.com",
+        "login.microsoftonline.com",
+        "login.microsoftonline-p.com",
+        "login.windows.net",
+        "logincert.microsoftonline.com",
+        "loginex.microsoftonline.com",
+        "login-us.microsoftonline.com",
+        "nexus.microsoftonline-p.com",
+        "passwordreset.microsoftonline.com",
+        "provisioningapi.microsoftonline.com"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "20.190.128.0/18",
+        "40.126.0.0/18",
+        "2603:1006:2000::/48",
+        "2603:1007:200::/48",
+        "2603:1016:1400::/48",
+        "2603:1017::/48",
+        "2603:1026:3000::/48",
+        "2603:1027:1::/48",
+        "2603:1036:3000::/48",
+        "2603:1037:1::/48",
+        "2603:1046:2000::/48",
+        "2603:1047:1::/48",
+        "2603:1056:2000::/48",
+        "2603:1057:2::/48"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.msftidentity.com",
+        "*.msidentity.com",
+        "account.activedirectory.windowsazure.com",
+        "accounts.accesscontrol.windows.net",
+        "adminwebservice.microsoftonline.com",
+        "api.passwordreset.microsoftonline.com",
+        "autologon.microsoftazuread-sso.com",
+        "becws.microsoftonline.com",
+        "clientconfig.microsoftonline-p.net",
+        "companymanager.microsoftonline.com",
+        "device.login.microsoftonline.com",
+        "graph.microsoft.com",
+        "graph.windows.net",
+        "login.microsoft.com",
+        "login.microsoftonline.com",
+        "login.microsoftonline-p.com",
+        "login.windows.net",
+        "logincert.microsoftonline.com",
+        "loginex.microsoftonline.com",
+        "login-us.microsoftonline.com",
+        "nexus.microsoftonline-p.com",
+        "passwordreset.microsoftonline.com",
+        "provisioningapi.microsoftonline.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.hip.live.com",
+        "*.microsoftonline.com",
+        "*.microsoftonline-p.com",
+        "*.msauth.net",
+        "*.msauthimages.net",
+        "*.msecnd.net",
+        "*.msftauth.net",
+        "*.msftauthimages.net",
+        "*.phonefactor.net",
+        "enterpriseregistration.windows.net",
+        "management.azure.com",
+        "policykeyservice.dc.ad.msft.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.hip.live.com",
+        "*.microsoftonline.com",
+        "*.microsoftonline-p.com",
+        "*.msauth.net",
+        "*.msauthimages.net",
+        "*.msecnd.net",
+        "*.msftauth.net",
+        "*.msftauthimages.net",
+        "*.phonefactor.net",
+        "enterpriseregistration.windows.net",
+        "management.azure.com",
+        "policykeyservice.dc.ad.msft.net"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "52.108.0.0/14",
+        "2603:1006:1400::/40",
+        "2603:1016:2400::/40",
+        "2603:1026:2400::/40",
+        "2603:1036:2400::/40",
+        "2603:1046:1400::/40",
+        "2603:1056:1400::/40",
+        "2a01:111:200a:a::/64",
+        "2a01:111:2035:8::/64",
+        "2a01:111:f406:1::/64",
+        "2a01:111:f406:c00::/64",
+        "2a01:111:f406:1004::/64",
+        "2a01:111:f406:1805::/64",
+        "2a01:111:f406:3404::/64",
+        "2a01:111:f406:8000::/64",
+        "2a01:111:f406:8801::/64",
+        "2a01:111:f406:a003::/64"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.compliance.microsoft.com",
+        "*.protection.office.com",
+        "*.security.microsoft.com",
+        "compliance.microsoft.com",
+        "protection.office.com",
+        "security.microsoft.com"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "52.108.0.0/14",
+        "2603:1006:1400::/40",
+        "2603:1016:2400::/40",
+        "2603:1026:2400::/40",
+        "2603:1036:2400::/40",
+        "2603:1046:1400::/40",
+        "2603:1056:1400::/40",
+        "2a01:111:200a:a::/64",
+        "2a01:111:2035:8::/64",
+        "2a01:111:f406:1::/64",
+        "2a01:111:f406:c00::/64",
+        "2a01:111:f406:1004::/64",
+        "2a01:111:f406:1805::/64",
+        "2a01:111:f406:3404::/64",
+        "2a01:111:f406:8000::/64",
+        "2a01:111:f406:8801::/64",
+        "2a01:111:f406:a003::/64"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.portal.cloudappsecurity.com",
+        "account.office.net"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Addresses": [
+        "52.108.0.0/14",
+        "2603:1006:1400::/40",
+        "2603:1016:2400::/40",
+        "2603:1026:2400::/40",
+        "2603:1036:2400::/40",
+        "2603:1046:1400::/40",
+        "2603:1056:1400::/40",
+        "2a01:111:200a:a::/64",
+        "2a01:111:2035:8::/64",
+        "2a01:111:f406:1::/64",
+        "2a01:111:f406:c00::/64",
+        "2a01:111:f406:1004::/64",
+        "2a01:111:f406:1805::/64",
+        "2a01:111:f406:3404::/64",
+        "2a01:111:f406:8000::/64",
+        "2a01:111:f406:8801::/64",
+        "2a01:111:f406:a003::/64"
+      ]
+    },
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.portal.cloudappsecurity.com",
+        "account.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "suite.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.aria.microsoft.com",
+        "*.events.data.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.o365weve.com",
+        "amp.azure.net",
+        "appsforoffice.microsoft.com",
+        "assets.onestore.ms",
+        "auth.gfx.ms",
+        "c1.microsoft.com",
+        "contentstorage.osi.office.net",
+        "dgps.support.microsoft.com",
+        "docs.microsoft.com",
+        "msdn.microsoft.com",
+        "platform.linkedin.com",
+        "prod.msocdn.com",
+        "shellprod.msocdn.com",
+        "support.content.office.net",
+        "support.microsoft.com",
+        "technet.microsoft.com",
+        "videocontent.osi.office.net",
+        "videoplayercdn.osi.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.office365.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.aadrm.com",
+        "*.azurerms.com",
+        "*.informationprotection.azure.com",
+        "ecn.dev.virtualearth.net",
+        "informationprotection.hosting.portal.azure.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "o15.officeredir.microsoft.com",
+        "officepreviewredir.microsoft.com",
+        "officeredir.microsoft.com",
+        "r.office.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "o15.officeredir.microsoft.com",
+        "officepreviewredir.microsoft.com",
+        "officeredir.microsoft.com",
+        "r.office.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "roaming.officeapps.live.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "roaming.officeapps.live.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "activation.sls.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "crl.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "crl.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "office15client.microsoft.com",
+        "officeclient.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "insertmedia.bing.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "insertmedia.bing.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "go.microsoft.com",
+        "support.office.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "go.microsoft.com",
+        "support.office.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "ajax.aspnetcdn.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "ajax.aspnetcdn.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "officecdn.microsoft.com",
+        "officecdn.microsoft.com.edgesuite.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "officecdn.microsoft.com",
+        "officecdn.microsoft.com.edgesuite.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.entrust.net",
+        "*.geotrust.com",
+        "*.omniroot.com",
+        "*.public-trust.com",
+        "*.symcb.com",
+        "*.symcd.com",
+        "*.verisign.com",
+        "*.verisign.net",
+        "apps.identrust.com",
+        "cacerts.digicert.com",
+        "cert.int-x3.letsencrypt.org",
+        "crl.globalsign.com",
+        "crl.globalsign.net",
+        "crl.identrust.com",
+        "crl.microsoft.com",
+        "crl3.digicert.com",
+        "crl4.digicert.com",
+        "isrg.trustid.ocsp.identrust.com",
+        "mscrl.microsoft.com",
+        "ocsp.digicert.com",
+        "ocsp.globalsign.com",
+        "ocsp.msocsp.com",
+        "ocsp2.globalsign.com",
+        "ocspx.digicert.com",
+        "secure.globalsign.com",
+        "www.digicert.com",
+        "www.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.entrust.net",
+        "*.geotrust.com",
+        "*.omniroot.com",
+        "*.public-trust.com",
+        "*.symcb.com",
+        "*.symcd.com",
+        "*.verisign.com",
+        "*.verisign.net",
+        "apps.identrust.com",
+        "cacerts.digicert.com",
+        "cert.int-x3.letsencrypt.org",
+        "crl.globalsign.com",
+        "crl.globalsign.net",
+        "crl.identrust.com",
+        "crl.microsoft.com",
+        "crl3.digicert.com",
+        "crl4.digicert.com",
+        "isrg.trustid.ocsp.identrust.com",
+        "mscrl.microsoft.com",
+        "ocsp.digicert.com",
+        "ocsp.globalsign.com",
+        "ocsp.msocsp.com",
+        "ocsp2.globalsign.com",
+        "ocspx.digicert.com",
+        "secure.globalsign.com",
+        "www.digicert.com",
+        "www.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.skype.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Teams.app\\/Contents\\/MacOS\\/Teams",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.skype.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.config.office.net",
+        "*.manage.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.office.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.office.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "cdnprod.myanalytics.microsoft.com",
+        "myanalytics.microsoft.com",
+        "myanalytics-gcc.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "cdnprod.myanalytics.microsoft.com",
+        "myanalytics.microsoft.com",
+        "myanalytics-gcc.microsoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "workplaceanalytics.cdn.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "workplaceanalytics.cdn.office.net"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.azure-apim.net",
+        "*.flow.microsoft.com",
+        "*.powerapps.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "autodiscover.*.onmicrosoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "\\/Applications\\/Microsoft Outlook.app\\/Contents\\/MacOS\\/Microsoft Outlook",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "autodiscover.*.onmicrosoft.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "activity.windows.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "ocsp.int-x3.letsencrypt.org"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "*.cortana.ai"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "admin.microsoft.com",
+        "portal.microsoftonline.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "admin.microsoft.com",
+        "portal.microsoftonline.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "cdn.odc.officeapps.live.com",
+        "cdn.uci.officeapps.live.com"
+      ]
+    },
+    null,
+    {
+      "process": "any",
+      "direction": "outgoing",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "remote-Domains": [
+        "cdn.odc.officeapps.live.com",
+        "cdn.uci.officeapps.live.com"
+      ]
+    }
+  ]
+}
