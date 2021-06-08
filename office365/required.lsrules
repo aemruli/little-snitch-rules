@@ -5,15 +5,13 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.6.152-13.107.6.153", "13.107.18.10-13.107.18.11", "13.107.128.0-13.107.131.255", "23.103.160.0-23.103.175.255", "40.96.0.0-40.103.255.255", "40.104.0.0-40.105.255.255", "52.96.0.0-52.99.255.255", "131.253.33.215-131.253.33.215", "132.245.0.0-132.245.255.255", "150.171.32.0-150.171.35.255", "204.79.197.215-204.79.197.215", "2603:1006::-2603:1006:ff:ffff:ffff:ffff:ffff:ffff", "2603:1016::-2603:1016:fff:ffff:ffff:ffff:ffff:ffff", "2603:1026::-2603:1026:fff:ffff:ffff:ffff:ffff:ffff", "2603:1036::-2603:1036:fff:ffff:ffff:ffff:ffff:ffff", "2603:1046::-2603:1046:fff:ffff:ffff:ffff:ffff:ffff", "2603:1056::-2603:1056:fff:ffff:ffff:ffff:ffff:ffff", "2603:1096::-2603:1096:3ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:400::-2603:1096:4ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:600::-2603:1096:6ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:a00::-2603:1096:bff:ffff:ffff:ffff:ffff:ffff", "2603:1096:c00::-2603:1096:cff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:200::-2603:10a6:2ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:400::-2603:10a6:4ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:600::-2603:10a6:6ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:800::-2603:10a6:8ff:ffff:ffff:ffff:ffff:ffff", "2603:10d6:200::-2603:10d6:2ff:ffff:ffff:ffff:ffff:ffff", "2620:1ec:4::152-2620:1ec:4::152", "2620:1ec:4::153-2620:1ec:4::153", "2620:1ec:c::10-2620:1ec:c::10", "2620:1ec:c::11-2620:1ec:c::11", "2620:1ec:d::10-2620:1ec:d::10", "2620:1ec:d::11-2620:1ec:d::11", "2620:1ec:8f0::-2620:1ec:8f3:ffff:ffff:ffff:ffff:ffff", "2620:1ec:900::-2620:1ec:903:ffff:ffff:ffff:ffff:ffff", "2620:1ec:a92::152-2620:1ec:a92::152", "2620:1ec:a92::153-2620:1ec:a92::153", "2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.6.152-13.107.6.153,13.107.18.10-13.107.18.11,13.107.128.0-13.107.131.255,23.103.160.0-23.103.175.255,40.96.0.0-40.103.255.255,40.104.0.0-40.105.255.255,52.96.0.0-52.99.255.255,131.253.33.215-131.253.33.215,132.245.0.0-132.245.255.255,150.171.32.0-150.171.35.255,204.79.197.215-204.79.197.215,2603:1006::-2603:1006:ff:ffff:ffff:ffff:ffff:ffff,2603:1016::-2603:1016:fff:ffff:ffff:ffff:ffff:ffff,2603:1026::-2603:1026:fff:ffff:ffff:ffff:ffff:ffff,2603:1036::-2603:1036:fff:ffff:ffff:ffff:ffff:ffff,2603:1046::-2603:1046:fff:ffff:ffff:ffff:ffff:ffff,2603:1056::-2603:1056:fff:ffff:ffff:ffff:ffff:ffff,2603:1096::-2603:1096:3ff:ffff:ffff:ffff:ffff:ffff,2603:1096:400::-2603:1096:4ff:ffff:ffff:ffff:ffff:ffff,2603:1096:600::-2603:1096:6ff:ffff:ffff:ffff:ffff:ffff,2603:1096:a00::-2603:1096:bff:ffff:ffff:ffff:ffff:ffff,2603:1096:c00::-2603:1096:cff:ffff:ffff:ffff:ffff:ffff,2603:10a6:200::-2603:10a6:2ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:400::-2603:10a6:4ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:600::-2603:10a6:6ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:800::-2603:10a6:8ff:ffff:ffff:ffff:ffff:ffff,2603:10d6:200::-2603:10d6:2ff:ffff:ffff:ffff:ffff:ffff,2620:1ec:4::152-2620:1ec:4::152,2620:1ec:4::153-2620:1ec:4::153,2620:1ec:c::10-2620:1ec:c::10,2620:1ec:c::11-2620:1ec:c::11,2620:1ec:d::10-2620:1ec:d::10,2620:1ec:d::11-2620:1ec:d::11,2620:1ec:8f0::-2620:1ec:8f3:ffff:ffff:ffff:ffff:ffff,2620:1ec:900::-2620:1ec:903:ffff:ffff:ffff:ffff:ffff,2620:1ec:a92::152-2620:1ec:a92::152,2620:1ec:a92::153-2620:1ec:a92::153,2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "outlook.office.com", "outlook.office365.com" ]
@@ -21,15 +19,13 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.6.152-13.107.6.153", "13.107.18.10-13.107.18.11", "13.107.128.0-13.107.131.255", "23.103.160.0-23.103.175.255", "40.96.0.0-40.103.255.255", "40.104.0.0-40.105.255.255", "52.96.0.0-52.99.255.255", "131.253.33.215-131.253.33.215", "132.245.0.0-132.245.255.255", "150.171.32.0-150.171.35.255", "204.79.197.215-204.79.197.215", "2603:1006::-2603:1006:ff:ffff:ffff:ffff:ffff:ffff", "2603:1016::-2603:1016:fff:ffff:ffff:ffff:ffff:ffff", "2603:1026::-2603:1026:fff:ffff:ffff:ffff:ffff:ffff", "2603:1036::-2603:1036:fff:ffff:ffff:ffff:ffff:ffff", "2603:1046::-2603:1046:fff:ffff:ffff:ffff:ffff:ffff", "2603:1056::-2603:1056:fff:ffff:ffff:ffff:ffff:ffff", "2603:1096::-2603:1096:3ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:400::-2603:1096:4ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:600::-2603:1096:6ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:a00::-2603:1096:bff:ffff:ffff:ffff:ffff:ffff", "2603:1096:c00::-2603:1096:cff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:200::-2603:10a6:2ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:400::-2603:10a6:4ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:600::-2603:10a6:6ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:800::-2603:10a6:8ff:ffff:ffff:ffff:ffff:ffff", "2603:10d6:200::-2603:10d6:2ff:ffff:ffff:ffff:ffff:ffff", "2620:1ec:4::152-2620:1ec:4::152", "2620:1ec:4::153-2620:1ec:4::153", "2620:1ec:c::10-2620:1ec:c::10", "2620:1ec:c::11-2620:1ec:c::11", "2620:1ec:d::10-2620:1ec:d::10", "2620:1ec:d::11-2620:1ec:d::11", "2620:1ec:8f0::-2620:1ec:8f3:ffff:ffff:ffff:ffff:ffff", "2620:1ec:900::-2620:1ec:903:ffff:ffff:ffff:ffff:ffff", "2620:1ec:a92::152-2620:1ec:a92::152", "2620:1ec:a92::153-2620:1ec:a92::153", "2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.6.152-13.107.6.153,13.107.18.10-13.107.18.11,13.107.128.0-13.107.131.255,23.103.160.0-23.103.175.255,40.96.0.0-40.103.255.255,40.104.0.0-40.105.255.255,52.96.0.0-52.99.255.255,131.253.33.215-131.253.33.215,132.245.0.0-132.245.255.255,150.171.32.0-150.171.35.255,204.79.197.215-204.79.197.215,2603:1006::-2603:1006:ff:ffff:ffff:ffff:ffff:ffff,2603:1016::-2603:1016:fff:ffff:ffff:ffff:ffff:ffff,2603:1026::-2603:1026:fff:ffff:ffff:ffff:ffff:ffff,2603:1036::-2603:1036:fff:ffff:ffff:ffff:ffff:ffff,2603:1046::-2603:1046:fff:ffff:ffff:ffff:ffff:ffff,2603:1056::-2603:1056:fff:ffff:ffff:ffff:ffff:ffff,2603:1096::-2603:1096:3ff:ffff:ffff:ffff:ffff:ffff,2603:1096:400::-2603:1096:4ff:ffff:ffff:ffff:ffff:ffff,2603:1096:600::-2603:1096:6ff:ffff:ffff:ffff:ffff:ffff,2603:1096:a00::-2603:1096:bff:ffff:ffff:ffff:ffff:ffff,2603:1096:c00::-2603:1096:cff:ffff:ffff:ffff:ffff:ffff,2603:10a6:200::-2603:10a6:2ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:400::-2603:10a6:4ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:600::-2603:10a6:6ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:800::-2603:10a6:8ff:ffff:ffff:ffff:ffff:ffff,2603:10d6:200::-2603:10d6:2ff:ffff:ffff:ffff:ffff:ffff,2620:1ec:4::152-2620:1ec:4::152,2620:1ec:4::153-2620:1ec:4::153,2620:1ec:c::10-2620:1ec:c::10,2620:1ec:c::11-2620:1ec:c::11,2620:1ec:d::10-2620:1ec:d::10,2620:1ec:d::11-2620:1ec:d::11,2620:1ec:8f0::-2620:1ec:8f3:ffff:ffff:ffff:ffff:ffff,2620:1ec:900::-2620:1ec:903:ffff:ffff:ffff:ffff:ffff,2620:1ec:a92::152-2620:1ec:a92::152,2620:1ec:a92::153-2620:1ec:a92::153,2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "outlook.office.com", "outlook.office365.com" ]
@@ -37,15 +33,13 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "587",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.6.152-13.107.6.153", "13.107.18.10-13.107.18.11", "13.107.128.0-13.107.131.255", "23.103.160.0-23.103.175.255", "40.96.0.0-40.103.255.255", "40.104.0.0-40.105.255.255", "52.96.0.0-52.99.255.255", "131.253.33.215-131.253.33.215", "132.245.0.0-132.245.255.255", "150.171.32.0-150.171.35.255", "204.79.197.215-204.79.197.215", "2603:1006::-2603:1006:ff:ffff:ffff:ffff:ffff:ffff", "2603:1016::-2603:1016:fff:ffff:ffff:ffff:ffff:ffff", "2603:1026::-2603:1026:fff:ffff:ffff:ffff:ffff:ffff", "2603:1036::-2603:1036:fff:ffff:ffff:ffff:ffff:ffff", "2603:1046::-2603:1046:fff:ffff:ffff:ffff:ffff:ffff", "2603:1056::-2603:1056:fff:ffff:ffff:ffff:ffff:ffff", "2603:1096::-2603:1096:3ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:400::-2603:1096:4ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:600::-2603:1096:6ff:ffff:ffff:ffff:ffff:ffff", "2603:1096:a00::-2603:1096:bff:ffff:ffff:ffff:ffff:ffff", "2603:1096:c00::-2603:1096:cff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:200::-2603:10a6:2ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:400::-2603:10a6:4ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:600::-2603:10a6:6ff:ffff:ffff:ffff:ffff:ffff", "2603:10a6:800::-2603:10a6:8ff:ffff:ffff:ffff:ffff:ffff", "2603:10d6:200::-2603:10d6:2ff:ffff:ffff:ffff:ffff:ffff", "2620:1ec:4::152-2620:1ec:4::152", "2620:1ec:4::153-2620:1ec:4::153", "2620:1ec:c::10-2620:1ec:c::10", "2620:1ec:c::11-2620:1ec:c::11", "2620:1ec:d::10-2620:1ec:d::10", "2620:1ec:d::11-2620:1ec:d::11", "2620:1ec:8f0::-2620:1ec:8f3:ffff:ffff:ffff:ffff:ffff", "2620:1ec:900::-2620:1ec:903:ffff:ffff:ffff:ffff:ffff", "2620:1ec:a92::152-2620:1ec:a92::152", "2620:1ec:a92::153-2620:1ec:a92::153", "2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.6.152-13.107.6.153,13.107.18.10-13.107.18.11,13.107.128.0-13.107.131.255,23.103.160.0-23.103.175.255,40.96.0.0-40.103.255.255,40.104.0.0-40.105.255.255,52.96.0.0-52.99.255.255,131.253.33.215-131.253.33.215,132.245.0.0-132.245.255.255,150.171.32.0-150.171.35.255,204.79.197.215-204.79.197.215,2603:1006::-2603:1006:ff:ffff:ffff:ffff:ffff:ffff,2603:1016::-2603:1016:fff:ffff:ffff:ffff:ffff:ffff,2603:1026::-2603:1026:fff:ffff:ffff:ffff:ffff:ffff,2603:1036::-2603:1036:fff:ffff:ffff:ffff:ffff:ffff,2603:1046::-2603:1046:fff:ffff:ffff:ffff:ffff:ffff,2603:1056::-2603:1056:fff:ffff:ffff:ffff:ffff:ffff,2603:1096::-2603:1096:3ff:ffff:ffff:ffff:ffff:ffff,2603:1096:400::-2603:1096:4ff:ffff:ffff:ffff:ffff:ffff,2603:1096:600::-2603:1096:6ff:ffff:ffff:ffff:ffff:ffff,2603:1096:a00::-2603:1096:bff:ffff:ffff:ffff:ffff:ffff,2603:1096:c00::-2603:1096:cff:ffff:ffff:ffff:ffff:ffff,2603:10a6:200::-2603:10a6:2ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:400::-2603:10a6:4ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:600::-2603:10a6:6ff:ffff:ffff:ffff:ffff:ffff,2603:10a6:800::-2603:10a6:8ff:ffff:ffff:ffff:ffff:ffff,2603:10d6:200::-2603:10d6:2ff:ffff:ffff:ffff:ffff:ffff,2620:1ec:4::152-2620:1ec:4::152,2620:1ec:4::153-2620:1ec:4::153,2620:1ec:c::10-2620:1ec:c::10,2620:1ec:c::11-2620:1ec:c::11,2620:1ec:d::10-2620:1ec:d::10,2620:1ec:d::11-2620:1ec:d::11,2620:1ec:8f0::-2620:1ec:8f3:ffff:ffff:ffff:ffff:ffff,2620:1ec:900::-2620:1ec:903:ffff:ffff:ffff:ffff:ffff,2620:1ec:a92::152-2620:1ec:a92::152,2620:1ec:a92::153-2620:1ec:a92::153,2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "587",
     "protocol" : "tcp",
     "remote-domains" : [ "smtp.office365.com" ]
@@ -53,7 +47,6 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "r1.res.office365.com", "r3.res.office365.com", "r4.res.office365.com" ]
@@ -61,7 +54,6 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "r1.res.office365.com", "r3.res.office365.com", "r4.res.office365.com" ]
@@ -69,7 +61,6 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.outlook.com", "*.outlook.office.com", "attachments.office.net" ]
@@ -77,7 +68,6 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.outlook.com", "*.outlook.office.com", "attachments.office.net" ]
@@ -85,15 +75,13 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "40.92.0.0-40.93.255.255", "40.107.0.0-40.107.255.255", "52.100.0.0-52.103.255.255", "52.238.78.88-52.238.78.88", "104.47.0.0-104.47.127.255", "2a01:111:f403::-2a01:111:f403:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "40.92.0.0-40.93.255.255,40.107.0.0-40.107.255.255,52.100.0.0-52.103.255.255,52.238.78.88-52.238.78.88,104.47.0.0-104.47.127.255,2a01:111:f403::-2a01:111:f403:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.protection.outlook.com" ]
@@ -101,15 +89,13 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "25",
     "protocol" : "tcp",
-    "remote-addresses" : [ "40.92.0.0-40.93.255.255", "40.107.0.0-40.107.255.255", "52.100.0.0-52.103.255.255", "104.47.0.0-104.47.127.255", "2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff", "2a01:111:f403::-2a01:111:f403:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "40.92.0.0-40.93.255.255,40.107.0.0-40.107.255.255,52.100.0.0-52.103.255.255,104.47.0.0-104.47.127.255,2a01:111:f400::-2a01:111:f400:ffff:ffff:ffff:ffff:ffff,2a01:111:f403::-2a01:111:f403:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "25",
     "protocol" : "tcp",
     "remote-domains" : [ "*.mail.protection.outlook.com" ]
@@ -117,47 +103,41 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "3478",
     "protocol" : "udp",
-    "remote-addresses" : [ "13.107.64.0-13.107.127.255", "52.112.0.0-52.115.255.255", "52.120.0.0-52.123.255.255" ]
+    "remote-addresses" : "13.107.64.0-13.107.127.255,52.112.0.0-52.115.255.255,52.120.0.0-52.123.255.255"
   }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "3479",
     "protocol" : "udp",
-    "remote-addresses" : [ "13.107.64.0-13.107.127.255", "52.112.0.0-52.115.255.255", "52.120.0.0-52.123.255.255" ]
+    "remote-addresses" : "13.107.64.0-13.107.127.255,52.112.0.0-52.115.255.255,52.120.0.0-52.123.255.255"
   }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "3480",
     "protocol" : "udp",
-    "remote-addresses" : [ "13.107.64.0-13.107.127.255", "52.112.0.0-52.115.255.255", "52.120.0.0-52.123.255.255" ]
+    "remote-addresses" : "13.107.64.0-13.107.127.255,52.112.0.0-52.115.255.255,52.120.0.0-52.123.255.255"
   }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "3481",
     "protocol" : "udp",
-    "remote-addresses" : [ "13.107.64.0-13.107.127.255", "52.112.0.0-52.115.255.255", "52.120.0.0-52.123.255.255" ]
+    "remote-addresses" : "13.107.64.0-13.107.127.255,52.112.0.0-52.115.255.255,52.120.0.0-52.123.255.255"
   }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.64.0-13.107.127.255", "52.112.0.0-52.115.255.255", "52.120.0.0-52.123.255.255", "52.238.119.141-52.238.119.141", "52.244.160.207-52.244.160.207", "2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff", "2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff", "2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff", "2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff", "2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff", "2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.64.0-13.107.127.255,52.112.0.0-52.115.255.255,52.120.0.0-52.123.255.255,52.238.119.141-52.238.119.141,52.244.160.207-52.244.160.207,2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff,2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff,2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff,2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff,2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff,2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.lync.com", "*.teams.microsoft.com", "teams.microsoft.com" ]
@@ -165,15 +145,13 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.64.0-13.107.127.255", "52.112.0.0-52.115.255.255", "52.120.0.0-52.123.255.255", "52.238.119.141-52.238.119.141", "52.244.160.207-52.244.160.207", "2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff", "2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff", "2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff", "2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff", "2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff", "2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.64.0-13.107.127.255,52.112.0.0-52.115.255.255,52.120.0.0-52.123.255.255,52.238.119.141-52.238.119.141,52.244.160.207-52.244.160.207,2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff,2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff,2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff,2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff,2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff,2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.lync.com", "*.teams.microsoft.com", "teams.microsoft.com" ]
@@ -181,15 +159,13 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.64.0-13.107.127.255", "52.112.0.0-52.115.255.255", "52.120.0.0-52.123.255.255", "52.238.119.141-52.238.119.141", "52.244.160.207-52.244.160.207", "2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff", "2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff", "2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff", "2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff", "2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff", "2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.64.0-13.107.127.255,52.112.0.0-52.115.255.255,52.120.0.0-52.123.255.255,52.238.119.141-52.238.119.141,52.244.160.207-52.244.160.207,2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff,2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff,2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff,2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff,2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff,2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.broadcast.skype.com", "broadcast.skype.com" ]
@@ -197,7 +173,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.sfbassets.com" ]
@@ -205,7 +180,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.sfbassets.com" ]
@@ -213,7 +187,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.keydelivery.mediaservices.windows.net", "*.msecnd.net", "*.streaming.mediaservices.windows.net", "ajax.aspnetcdn.com", "mlccdn.blob.core.windows.net" ]
@@ -221,7 +194,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "aka.ms", "amp.azure.net" ]
@@ -229,7 +201,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.msedge.net", "compass-ssl.microsoft.com" ]
@@ -237,7 +208,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.mstea.ms", "*.secure.skypeassets.com", "mlccdnprod.azureedge.net", "videoplayercdn.osi.office.net" ]
@@ -245,15 +215,13 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.136.0-13.107.139.255", "40.108.128.0-40.108.255.255", "52.104.0.0-52.107.255.255", "104.146.128.0-104.146.255.255", "150.171.40.0-150.171.43.255", "2620:1ec:8f8::-2620:1ec:8fb:ffff:ffff:ffff:ffff:ffff", "2620:1ec:908::-2620:1ec:90b:ffff:ffff:ffff:ffff:ffff", "2a01:111:f402::-2a01:111:f402:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.136.0-13.107.139.255,40.108.128.0-40.108.255.255,52.104.0.0-52.107.255.255,104.146.128.0-104.146.255.255,150.171.40.0-150.171.43.255,2620:1ec:8f8::-2620:1ec:8fb:ffff:ffff:ffff:ffff:ffff,2620:1ec:908::-2620:1ec:90b:ffff:ffff:ffff:ffff:ffff,2a01:111:f402::-2a01:111:f402:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.sharepoint.com" ]
@@ -261,15 +229,13 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.136.0-13.107.139.255", "40.108.128.0-40.108.255.255", "52.104.0.0-52.107.255.255", "104.146.128.0-104.146.255.255", "150.171.40.0-150.171.43.255", "2620:1ec:8f8::-2620:1ec:8fb:ffff:ffff:ffff:ffff:ffff", "2620:1ec:908::-2620:1ec:90b:ffff:ffff:ffff:ffff:ffff", "2a01:111:f402::-2a01:111:f402:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "13.107.136.0-13.107.139.255,40.108.128.0-40.108.255.255,52.104.0.0-52.107.255.255,104.146.128.0-104.146.255.255,150.171.40.0-150.171.43.255,2620:1ec:8f8::-2620:1ec:8fb:ffff:ffff:ffff:ffff:ffff,2620:1ec:908::-2620:1ec:90b:ffff:ffff:ffff:ffff:ffff,2a01:111:f402::-2a01:111:f402:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.sharepoint.com" ]
@@ -277,7 +243,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.wns.windows.com", "admin.onedrive.com", "officeclient.microsoft.com" ]
@@ -285,7 +250,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.wns.windows.com", "admin.onedrive.com", "officeclient.microsoft.com" ]
@@ -293,7 +257,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "g.live.com", "oneclient.sfx.ms" ]
@@ -301,7 +264,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "g.live.com", "oneclient.sfx.ms" ]
@@ -309,7 +271,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.sharepointonline.com", "cdn.sharepointonline.com", "privatecdn.sharepointonline.com", "publiccdn.sharepointonline.com", "spoprod-a.akamaihd.net", "static.sharepointonline.com" ]
@@ -317,7 +278,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.sharepointonline.com", "cdn.sharepointonline.com", "privatecdn.sharepointonline.com", "publiccdn.sharepointonline.com", "spoprod-a.akamaihd.net", "static.sharepointonline.com" ]
@@ -325,7 +285,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.svc.ms", "*-files.sharepoint.com", "*-myfiles.sharepoint.com" ]
@@ -333,7 +292,6 @@
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.svc.ms", "*-files.sharepoint.com", "*-myfiles.sharepoint.com" ]
@@ -341,15 +299,13 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.6.171-13.107.6.171", "13.107.18.15-13.107.18.15", "13.107.140.6-13.107.140.6", "52.108.0.0-52.111.255.255", "52.238.106.116-52.238.106.116", "52.244.37.168-52.244.37.168", "52.244.203.72-52.244.203.72", "52.244.207.172-52.244.207.172", "52.244.223.198-52.244.223.198", "52.247.150.191-52.247.150.191", "2603:1010:2::cb-2603:1010:2::cb", "2603:1010:200::c7-2603:1010:200::c7", "2603:1020:200::682f:a0fd-2603:1020:200::682f:a0fd", "2603:1020:201:9::c6-2603:1020:201:9::c6", "2603:1020:600::a1-2603:1020:600::a1", "2603:1020:700::a2-2603:1020:700::a2", "2603:1020:800:2::6-2603:1020:800:2::6", "2603:1020:900::8-2603:1020:900::8", "2603:1030:7::749-2603:1030:7::749", "2603:1030:800:5::bfee:ad3c-2603:1030:800:5::bfee:ad3c", "2603:1030:f00::17-2603:1030:f00::17", "2603:1030:1000::21a-2603:1030:1000::21a", "2603:1040:200::4f3-2603:1040:200::4f3", "2603:1040:401::762-2603:1040:401::762", "2603:1040:601::60f-2603:1040:601::60f", "2603:1040:a01::1e-2603:1040:a01::1e", "2603:1040:c01::28-2603:1040:c01::28", "2603:1040:e00:1::2f-2603:1040:e00:1::2f", "2603:1040:f00::1f-2603:1040:f00::1f", "2603:1050:1::cd-2603:1050:1::cd", "2620:1ec:c::15-2620:1ec:c::15", "2620:1ec:8fc::6-2620:1ec:8fc::6", "2620:1ec:a92::171-2620:1ec:a92::171", "2a01:111:f100:2000::a83e:3019-2a01:111:f100:2000::a83e:3019", "2a01:111:f100:2002::8975:2d79-2a01:111:f100:2002::8975:2d79", "2a01:111:f100:2002::8975:2da8-2a01:111:f100:2002::8975:2da8", "2a01:111:f100:7000::6fdd:6cd5-2a01:111:f100:7000::6fdd:6cd5", "2a01:111:f100:a004::bfeb:88cf-2a01:111:f100:a004::bfeb:88cf" ]
+    "remote-addresses" : "13.107.6.171-13.107.6.171,13.107.18.15-13.107.18.15,13.107.140.6-13.107.140.6,52.108.0.0-52.111.255.255,52.238.106.116-52.238.106.116,52.244.37.168-52.244.37.168,52.244.203.72-52.244.203.72,52.244.207.172-52.244.207.172,52.244.223.198-52.244.223.198,52.247.150.191-52.247.150.191,2603:1010:2::cb-2603:1010:2::cb,2603:1010:200::c7-2603:1010:200::c7,2603:1020:200::682f:a0fd-2603:1020:200::682f:a0fd,2603:1020:201:9::c6-2603:1020:201:9::c6,2603:1020:600::a1-2603:1020:600::a1,2603:1020:700::a2-2603:1020:700::a2,2603:1020:800:2::6-2603:1020:800:2::6,2603:1020:900::8-2603:1020:900::8,2603:1030:7::749-2603:1030:7::749,2603:1030:800:5::bfee:ad3c-2603:1030:800:5::bfee:ad3c,2603:1030:f00::17-2603:1030:f00::17,2603:1030:1000::21a-2603:1030:1000::21a,2603:1040:200::4f3-2603:1040:200::4f3,2603:1040:401::762-2603:1040:401::762,2603:1040:601::60f-2603:1040:601::60f,2603:1040:a01::1e-2603:1040:a01::1e,2603:1040:c01::28-2603:1040:c01::28,2603:1040:e00:1::2f-2603:1040:e00:1::2f,2603:1040:f00::1f-2603:1040:f00::1f,2603:1050:1::cd-2603:1050:1::cd,2620:1ec:c::15-2620:1ec:c::15,2620:1ec:8fc::6-2620:1ec:8fc::6,2620:1ec:a92::171-2620:1ec:a92::171,2a01:111:f100:2000::a83e:3019-2a01:111:f100:2000::a83e:3019,2a01:111:f100:2002::8975:2d79-2a01:111:f100:2002::8975:2d79,2a01:111:f100:2002::8975:2da8-2a01:111:f100:2002::8975:2da8,2a01:111:f100:7000::6fdd:6cd5-2a01:111:f100:7000::6fdd:6cd5,2a01:111:f100:a004::bfeb:88cf-2a01:111:f100:a004::bfeb:88cf"
   }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.officeapps.live.com", "*.online.office.com", "office.live.com" ]
@@ -357,15 +313,13 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "13.107.6.171-13.107.6.171", "13.107.18.15-13.107.18.15", "13.107.140.6-13.107.140.6", "52.108.0.0-52.111.255.255", "52.238.106.116-52.238.106.116", "52.244.37.168-52.244.37.168", "52.244.203.72-52.244.203.72", "52.244.207.172-52.244.207.172", "52.244.223.198-52.244.223.198", "52.247.150.191-52.247.150.191", "2603:1010:2::cb-2603:1010:2::cb", "2603:1010:200::c7-2603:1010:200::c7", "2603:1020:200::682f:a0fd-2603:1020:200::682f:a0fd", "2603:1020:201:9::c6-2603:1020:201:9::c6", "2603:1020:600::a1-2603:1020:600::a1", "2603:1020:700::a2-2603:1020:700::a2", "2603:1020:800:2::6-2603:1020:800:2::6", "2603:1020:900::8-2603:1020:900::8", "2603:1030:7::749-2603:1030:7::749", "2603:1030:800:5::bfee:ad3c-2603:1030:800:5::bfee:ad3c", "2603:1030:f00::17-2603:1030:f00::17", "2603:1030:1000::21a-2603:1030:1000::21a", "2603:1040:200::4f3-2603:1040:200::4f3", "2603:1040:401::762-2603:1040:401::762", "2603:1040:601::60f-2603:1040:601::60f", "2603:1040:a01::1e-2603:1040:a01::1e", "2603:1040:c01::28-2603:1040:c01::28", "2603:1040:e00:1::2f-2603:1040:e00:1::2f", "2603:1040:f00::1f-2603:1040:f00::1f", "2603:1050:1::cd-2603:1050:1::cd", "2620:1ec:c::15-2620:1ec:c::15", "2620:1ec:8fc::6-2620:1ec:8fc::6", "2620:1ec:a92::171-2620:1ec:a92::171", "2a01:111:f100:2000::a83e:3019-2a01:111:f100:2000::a83e:3019", "2a01:111:f100:2002::8975:2d79-2a01:111:f100:2002::8975:2d79", "2a01:111:f100:2002::8975:2da8-2a01:111:f100:2002::8975:2da8", "2a01:111:f100:7000::6fdd:6cd5-2a01:111:f100:7000::6fdd:6cd5", "2a01:111:f100:a004::bfeb:88cf-2a01:111:f100:a004::bfeb:88cf" ]
+    "remote-addresses" : "13.107.6.171-13.107.6.171,13.107.18.15-13.107.18.15,13.107.140.6-13.107.140.6,52.108.0.0-52.111.255.255,52.238.106.116-52.238.106.116,52.244.37.168-52.244.37.168,52.244.203.72-52.244.203.72,52.244.207.172-52.244.207.172,52.244.223.198-52.244.223.198,52.247.150.191-52.247.150.191,2603:1010:2::cb-2603:1010:2::cb,2603:1010:200::c7-2603:1010:200::c7,2603:1020:200::682f:a0fd-2603:1020:200::682f:a0fd,2603:1020:201:9::c6-2603:1020:201:9::c6,2603:1020:600::a1-2603:1020:600::a1,2603:1020:700::a2-2603:1020:700::a2,2603:1020:800:2::6-2603:1020:800:2::6,2603:1020:900::8-2603:1020:900::8,2603:1030:7::749-2603:1030:7::749,2603:1030:800:5::bfee:ad3c-2603:1030:800:5::bfee:ad3c,2603:1030:f00::17-2603:1030:f00::17,2603:1030:1000::21a-2603:1030:1000::21a,2603:1040:200::4f3-2603:1040:200::4f3,2603:1040:401::762-2603:1040:401::762,2603:1040:601::60f-2603:1040:601::60f,2603:1040:a01::1e-2603:1040:a01::1e,2603:1040:c01::28-2603:1040:c01::28,2603:1040:e00:1::2f-2603:1040:e00:1::2f,2603:1040:f00::1f-2603:1040:f00::1f,2603:1050:1::cd-2603:1050:1::cd,2620:1ec:c::15-2620:1ec:c::15,2620:1ec:8fc::6-2620:1ec:8fc::6,2620:1ec:a92::171-2620:1ec:a92::171,2a01:111:f100:2000::a83e:3019-2a01:111:f100:2000::a83e:3019,2a01:111:f100:2002::8975:2d79-2a01:111:f100:2002::8975:2d79,2a01:111:f100:2002::8975:2da8-2a01:111:f100:2002::8975:2da8,2a01:111:f100:7000::6fdd:6cd5-2a01:111:f100:7000::6fdd:6cd5,2a01:111:f100:a004::bfeb:88cf-2a01:111:f100:a004::bfeb:88cf"
   }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.officeapps.live.com", "*.online.office.com", "office.live.com" ]
@@ -373,7 +327,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.cdn.office.net", "contentstorage.osi.office.net" ]
@@ -381,7 +334,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.onenote.com" ]
@@ -389,7 +341,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*cdn.onenote.net" ]
@@ -397,7 +348,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "ajax.aspnetcdn.com", "apis.live.net", "cdn.optimizely.com", "officeapps.live.com", "www.onedrive.com" ]
@@ -405,15 +355,13 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
-    "remote-addresses" : [ "20.190.128.0-20.190.191.255", "40.126.0.0-40.126.63.255", "2603:1006:2000::-2603:1006:2000:ffff:ffff:ffff:ffff:ffff", "2603:1007:200::-2603:1007:200:ffff:ffff:ffff:ffff:ffff", "2603:1016:1400::-2603:1016:1400:ffff:ffff:ffff:ffff:ffff", "2603:1017::-2603:1017:0:ffff:ffff:ffff:ffff:ffff", "2603:1026:3000::-2603:1026:3000:ffff:ffff:ffff:ffff:ffff", "2603:1027:1::-2603:1027:1:ffff:ffff:ffff:ffff:ffff", "2603:1036:3000::-2603:1036:3000:ffff:ffff:ffff:ffff:ffff", "2603:1037:1::-2603:1037:1:ffff:ffff:ffff:ffff:ffff", "2603:1046:2000::-2603:1046:2000:ffff:ffff:ffff:ffff:ffff", "2603:1047:1::-2603:1047:1:ffff:ffff:ffff:ffff:ffff", "2603:1056:2000::-2603:1056:2000:ffff:ffff:ffff:ffff:ffff", "2603:1057:2::-2603:1057:2:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "20.190.128.0-20.190.191.255,40.126.0.0-40.126.63.255,2603:1006:2000::-2603:1006:2000:ffff:ffff:ffff:ffff:ffff,2603:1007:200::-2603:1007:200:ffff:ffff:ffff:ffff:ffff,2603:1016:1400::-2603:1016:1400:ffff:ffff:ffff:ffff:ffff,2603:1017::-2603:1017:0:ffff:ffff:ffff:ffff:ffff,2603:1026:3000::-2603:1026:3000:ffff:ffff:ffff:ffff:ffff,2603:1027:1::-2603:1027:1:ffff:ffff:ffff:ffff:ffff,2603:1036:3000::-2603:1036:3000:ffff:ffff:ffff:ffff:ffff,2603:1037:1::-2603:1037:1:ffff:ffff:ffff:ffff:ffff,2603:1046:2000::-2603:1046:2000:ffff:ffff:ffff:ffff:ffff,2603:1047:1::-2603:1047:1:ffff:ffff:ffff:ffff:ffff,2603:1056:2000::-2603:1056:2000:ffff:ffff:ffff:ffff:ffff,2603:1057:2::-2603:1057:2:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.msftidentity.com", "*.msidentity.com", "account.activedirectory.windowsazure.com", "accounts.accesscontrol.windows.net", "adminwebservice.microsoftonline.com", "api.passwordreset.microsoftonline.com", "autologon.microsoftazuread-sso.com", "becws.microsoftonline.com", "clientconfig.microsoftonline-p.net", "companymanager.microsoftonline.com", "device.login.microsoftonline.com", "graph.microsoft.com", "graph.windows.net", "login.microsoft.com", "login.microsoftonline.com", "login.microsoftonline-p.com", "login.windows.net", "logincert.microsoftonline.com", "loginex.microsoftonline.com", "login-us.microsoftonline.com", "nexus.microsoftonline-p.com", "passwordreset.microsoftonline.com", "provisioningapi.microsoftonline.com" ]
@@ -421,15 +369,13 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "20.190.128.0-20.190.191.255", "40.126.0.0-40.126.63.255", "2603:1006:2000::-2603:1006:2000:ffff:ffff:ffff:ffff:ffff", "2603:1007:200::-2603:1007:200:ffff:ffff:ffff:ffff:ffff", "2603:1016:1400::-2603:1016:1400:ffff:ffff:ffff:ffff:ffff", "2603:1017::-2603:1017:0:ffff:ffff:ffff:ffff:ffff", "2603:1026:3000::-2603:1026:3000:ffff:ffff:ffff:ffff:ffff", "2603:1027:1::-2603:1027:1:ffff:ffff:ffff:ffff:ffff", "2603:1036:3000::-2603:1036:3000:ffff:ffff:ffff:ffff:ffff", "2603:1037:1::-2603:1037:1:ffff:ffff:ffff:ffff:ffff", "2603:1046:2000::-2603:1046:2000:ffff:ffff:ffff:ffff:ffff", "2603:1047:1::-2603:1047:1:ffff:ffff:ffff:ffff:ffff", "2603:1056:2000::-2603:1056:2000:ffff:ffff:ffff:ffff:ffff", "2603:1057:2::-2603:1057:2:ffff:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "20.190.128.0-20.190.191.255,40.126.0.0-40.126.63.255,2603:1006:2000::-2603:1006:2000:ffff:ffff:ffff:ffff:ffff,2603:1007:200::-2603:1007:200:ffff:ffff:ffff:ffff:ffff,2603:1016:1400::-2603:1016:1400:ffff:ffff:ffff:ffff:ffff,2603:1017::-2603:1017:0:ffff:ffff:ffff:ffff:ffff,2603:1026:3000::-2603:1026:3000:ffff:ffff:ffff:ffff:ffff,2603:1027:1::-2603:1027:1:ffff:ffff:ffff:ffff:ffff,2603:1036:3000::-2603:1036:3000:ffff:ffff:ffff:ffff:ffff,2603:1037:1::-2603:1037:1:ffff:ffff:ffff:ffff:ffff,2603:1046:2000::-2603:1046:2000:ffff:ffff:ffff:ffff:ffff,2603:1047:1::-2603:1047:1:ffff:ffff:ffff:ffff:ffff,2603:1056:2000::-2603:1056:2000:ffff:ffff:ffff:ffff:ffff,2603:1057:2::-2603:1057:2:ffff:ffff:ffff:ffff:ffff"
   }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.msftidentity.com", "*.msidentity.com", "account.activedirectory.windowsazure.com", "accounts.accesscontrol.windows.net", "adminwebservice.microsoftonline.com", "api.passwordreset.microsoftonline.com", "autologon.microsoftazuread-sso.com", "becws.microsoftonline.com", "clientconfig.microsoftonline-p.net", "companymanager.microsoftonline.com", "device.login.microsoftonline.com", "graph.microsoft.com", "graph.windows.net", "login.microsoft.com", "login.microsoftonline.com", "login.microsoftonline-p.com", "login.windows.net", "logincert.microsoftonline.com", "loginex.microsoftonline.com", "login-us.microsoftonline.com", "nexus.microsoftonline-p.com", "passwordreset.microsoftonline.com", "provisioningapi.microsoftonline.com" ]
@@ -437,7 +383,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.hip.live.com", "*.microsoftonline.com", "*.microsoftonline-p.com", "*.msauth.net", "*.msauthimages.net", "*.msecnd.net", "*.msftauth.net", "*.msftauthimages.net", "*.phonefactor.net", "enterpriseregistration.windows.net", "management.azure.com", "policykeyservice.dc.ad.msft.net" ]
@@ -445,7 +390,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.hip.live.com", "*.microsoftonline.com", "*.microsoftonline-p.com", "*.msauth.net", "*.msauthimages.net", "*.msecnd.net", "*.msftauth.net", "*.msftauthimages.net", "*.phonefactor.net", "enterpriseregistration.windows.net", "management.azure.com", "policykeyservice.dc.ad.msft.net" ]
@@ -453,15 +397,13 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "52.108.0.0-52.111.255.255", "2603:1006:1400::-2603:1006:14ff:ffff:ffff:ffff:ffff:ffff", "2603:1016:2400::-2603:1016:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1026:2400::-2603:1026:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1036:2400::-2603:1036:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1046:1400::-2603:1046:14ff:ffff:ffff:ffff:ffff:ffff", "2603:1056:1400::-2603:1056:14ff:ffff:ffff:ffff:ffff:ffff", "2a01:111:200a:a::-2a01:111:200a:a:ffff:ffff:ffff:ffff", "2a01:111:2035:8::-2a01:111:2035:8:ffff:ffff:ffff:ffff", "2a01:111:f406:1::-2a01:111:f406:1:ffff:ffff:ffff:ffff", "2a01:111:f406:c00::-2a01:111:f406:c00:ffff:ffff:ffff:ffff", "2a01:111:f406:1004::-2a01:111:f406:1004:ffff:ffff:ffff:ffff", "2a01:111:f406:1805::-2a01:111:f406:1805:ffff:ffff:ffff:ffff", "2a01:111:f406:3404::-2a01:111:f406:3404:ffff:ffff:ffff:ffff", "2a01:111:f406:8000::-2a01:111:f406:8000:ffff:ffff:ffff:ffff", "2a01:111:f406:8801::-2a01:111:f406:8801:ffff:ffff:ffff:ffff", "2a01:111:f406:a003::-2a01:111:f406:a003:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "52.108.0.0-52.111.255.255,2603:1006:1400::-2603:1006:14ff:ffff:ffff:ffff:ffff:ffff,2603:1016:2400::-2603:1016:24ff:ffff:ffff:ffff:ffff:ffff,2603:1026:2400::-2603:1026:24ff:ffff:ffff:ffff:ffff:ffff,2603:1036:2400::-2603:1036:24ff:ffff:ffff:ffff:ffff:ffff,2603:1046:1400::-2603:1046:14ff:ffff:ffff:ffff:ffff:ffff,2603:1056:1400::-2603:1056:14ff:ffff:ffff:ffff:ffff:ffff,2a01:111:200a:a::-2a01:111:200a:a:ffff:ffff:ffff:ffff,2a01:111:2035:8::-2a01:111:2035:8:ffff:ffff:ffff:ffff,2a01:111:f406:1::-2a01:111:f406:1:ffff:ffff:ffff:ffff,2a01:111:f406:c00::-2a01:111:f406:c00:ffff:ffff:ffff:ffff,2a01:111:f406:1004::-2a01:111:f406:1004:ffff:ffff:ffff:ffff,2a01:111:f406:1805::-2a01:111:f406:1805:ffff:ffff:ffff:ffff,2a01:111:f406:3404::-2a01:111:f406:3404:ffff:ffff:ffff:ffff,2a01:111:f406:8000::-2a01:111:f406:8000:ffff:ffff:ffff:ffff,2a01:111:f406:8801::-2a01:111:f406:8801:ffff:ffff:ffff:ffff,2a01:111:f406:a003::-2a01:111:f406:a003:ffff:ffff:ffff:ffff"
   }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.compliance.microsoft.com", "*.protection.office.com", "*.security.microsoft.com", "compliance.microsoft.com", "protection.office.com", "security.microsoft.com" ]
@@ -469,15 +411,13 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
-    "remote-addresses" : [ "52.108.0.0-52.111.255.255", "2603:1006:1400::-2603:1006:14ff:ffff:ffff:ffff:ffff:ffff", "2603:1016:2400::-2603:1016:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1026:2400::-2603:1026:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1036:2400::-2603:1036:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1046:1400::-2603:1046:14ff:ffff:ffff:ffff:ffff:ffff", "2603:1056:1400::-2603:1056:14ff:ffff:ffff:ffff:ffff:ffff", "2a01:111:200a:a::-2a01:111:200a:a:ffff:ffff:ffff:ffff", "2a01:111:2035:8::-2a01:111:2035:8:ffff:ffff:ffff:ffff", "2a01:111:f406:1::-2a01:111:f406:1:ffff:ffff:ffff:ffff", "2a01:111:f406:c00::-2a01:111:f406:c00:ffff:ffff:ffff:ffff", "2a01:111:f406:1004::-2a01:111:f406:1004:ffff:ffff:ffff:ffff", "2a01:111:f406:1805::-2a01:111:f406:1805:ffff:ffff:ffff:ffff", "2a01:111:f406:3404::-2a01:111:f406:3404:ffff:ffff:ffff:ffff", "2a01:111:f406:8000::-2a01:111:f406:8000:ffff:ffff:ffff:ffff", "2a01:111:f406:8801::-2a01:111:f406:8801:ffff:ffff:ffff:ffff", "2a01:111:f406:a003::-2a01:111:f406:a003:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "52.108.0.0-52.111.255.255,2603:1006:1400::-2603:1006:14ff:ffff:ffff:ffff:ffff:ffff,2603:1016:2400::-2603:1016:24ff:ffff:ffff:ffff:ffff:ffff,2603:1026:2400::-2603:1026:24ff:ffff:ffff:ffff:ffff:ffff,2603:1036:2400::-2603:1036:24ff:ffff:ffff:ffff:ffff:ffff,2603:1046:1400::-2603:1046:14ff:ffff:ffff:ffff:ffff:ffff,2603:1056:1400::-2603:1056:14ff:ffff:ffff:ffff:ffff:ffff,2a01:111:200a:a::-2a01:111:200a:a:ffff:ffff:ffff:ffff,2a01:111:2035:8::-2a01:111:2035:8:ffff:ffff:ffff:ffff,2a01:111:f406:1::-2a01:111:f406:1:ffff:ffff:ffff:ffff,2a01:111:f406:c00::-2a01:111:f406:c00:ffff:ffff:ffff:ffff,2a01:111:f406:1004::-2a01:111:f406:1004:ffff:ffff:ffff:ffff,2a01:111:f406:1805::-2a01:111:f406:1805:ffff:ffff:ffff:ffff,2a01:111:f406:3404::-2a01:111:f406:3404:ffff:ffff:ffff:ffff,2a01:111:f406:8000::-2a01:111:f406:8000:ffff:ffff:ffff:ffff,2a01:111:f406:8801::-2a01:111:f406:8801:ffff:ffff:ffff:ffff,2a01:111:f406:a003::-2a01:111:f406:a003:ffff:ffff:ffff:ffff"
   }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.portal.cloudappsecurity.com", "account.office.net" ]
@@ -485,15 +425,13 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
-    "remote-addresses" : [ "52.108.0.0-52.111.255.255", "2603:1006:1400::-2603:1006:14ff:ffff:ffff:ffff:ffff:ffff", "2603:1016:2400::-2603:1016:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1026:2400::-2603:1026:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1036:2400::-2603:1036:24ff:ffff:ffff:ffff:ffff:ffff", "2603:1046:1400::-2603:1046:14ff:ffff:ffff:ffff:ffff:ffff", "2603:1056:1400::-2603:1056:14ff:ffff:ffff:ffff:ffff:ffff", "2a01:111:200a:a::-2a01:111:200a:a:ffff:ffff:ffff:ffff", "2a01:111:2035:8::-2a01:111:2035:8:ffff:ffff:ffff:ffff", "2a01:111:f406:1::-2a01:111:f406:1:ffff:ffff:ffff:ffff", "2a01:111:f406:c00::-2a01:111:f406:c00:ffff:ffff:ffff:ffff", "2a01:111:f406:1004::-2a01:111:f406:1004:ffff:ffff:ffff:ffff", "2a01:111:f406:1805::-2a01:111:f406:1805:ffff:ffff:ffff:ffff", "2a01:111:f406:3404::-2a01:111:f406:3404:ffff:ffff:ffff:ffff", "2a01:111:f406:8000::-2a01:111:f406:8000:ffff:ffff:ffff:ffff", "2a01:111:f406:8801::-2a01:111:f406:8801:ffff:ffff:ffff:ffff", "2a01:111:f406:a003::-2a01:111:f406:a003:ffff:ffff:ffff:ffff" ]
+    "remote-addresses" : "52.108.0.0-52.111.255.255,2603:1006:1400::-2603:1006:14ff:ffff:ffff:ffff:ffff:ffff,2603:1016:2400::-2603:1016:24ff:ffff:ffff:ffff:ffff:ffff,2603:1026:2400::-2603:1026:24ff:ffff:ffff:ffff:ffff:ffff,2603:1036:2400::-2603:1036:24ff:ffff:ffff:ffff:ffff:ffff,2603:1046:1400::-2603:1046:14ff:ffff:ffff:ffff:ffff:ffff,2603:1056:1400::-2603:1056:14ff:ffff:ffff:ffff:ffff:ffff,2a01:111:200a:a::-2a01:111:200a:a:ffff:ffff:ffff:ffff,2a01:111:2035:8::-2a01:111:2035:8:ffff:ffff:ffff:ffff,2a01:111:f406:1::-2a01:111:f406:1:ffff:ffff:ffff:ffff,2a01:111:f406:c00::-2a01:111:f406:c00:ffff:ffff:ffff:ffff,2a01:111:f406:1004::-2a01:111:f406:1004:ffff:ffff:ffff:ffff,2a01:111:f406:1805::-2a01:111:f406:1805:ffff:ffff:ffff:ffff,2a01:111:f406:3404::-2a01:111:f406:3404:ffff:ffff:ffff:ffff,2a01:111:f406:8000::-2a01:111:f406:8000:ffff:ffff:ffff:ffff,2a01:111:f406:8801::-2a01:111:f406:8801:ffff:ffff:ffff:ffff,2a01:111:f406:a003::-2a01:111:f406:a003:ffff:ffff:ffff:ffff"
   }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.portal.cloudappsecurity.com", "account.office.net" ]
@@ -501,7 +439,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "suite.office.net" ]
@@ -509,7 +446,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.aria.microsoft.com", "*.events.data.microsoft.com" ]
@@ -517,7 +453,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.o365weve.com", "amp.azure.net", "appsforoffice.microsoft.com", "assets.onestore.ms", "auth.gfx.ms", "c1.microsoft.com", "contentstorage.osi.office.net", "dgps.support.microsoft.com", "docs.microsoft.com", "msdn.microsoft.com", "platform.linkedin.com", "prod.msocdn.com", "shellprod.msocdn.com", "support.content.office.net", "support.microsoft.com", "technet.microsoft.com", "videocontent.osi.office.net", "videoplayercdn.osi.office.net" ]
@@ -525,7 +460,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.office365.com" ]
@@ -533,7 +467,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.aadrm.com", "*.azurerms.com", "*.informationprotection.azure.com", "ecn.dev.virtualearth.net", "informationprotection.hosting.portal.azure.net" ]
@@ -541,7 +474,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "o15.officeredir.microsoft.com", "officepreviewredir.microsoft.com", "officeredir.microsoft.com", "r.office.microsoft.com" ]
@@ -549,7 +481,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "o15.officeredir.microsoft.com", "officepreviewredir.microsoft.com", "officeredir.microsoft.com", "r.office.microsoft.com" ]
@@ -557,7 +488,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "roaming.officeapps.live.com" ]
@@ -565,7 +495,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "roaming.officeapps.live.com" ]
@@ -573,7 +502,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "activation.sls.microsoft.com" ]
@@ -581,7 +509,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "crl.microsoft.com" ]
@@ -589,7 +516,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "crl.microsoft.com" ]
@@ -597,7 +523,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "office15client.microsoft.com", "officeclient.microsoft.com" ]
@@ -605,7 +530,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "insertmedia.bing.office.net" ]
@@ -613,7 +537,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "insertmedia.bing.office.net" ]
@@ -621,7 +544,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "go.microsoft.com", "support.office.com" ]
@@ -629,7 +551,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "go.microsoft.com", "support.office.com" ]
@@ -637,7 +558,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "ajax.aspnetcdn.com" ]
@@ -645,7 +565,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "ajax.aspnetcdn.com" ]
@@ -653,7 +572,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "officecdn.microsoft.com", "officecdn.microsoft.com.edgesuite.net" ]
@@ -661,7 +579,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "officecdn.microsoft.com", "officecdn.microsoft.com.edgesuite.net" ]
@@ -669,7 +586,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.entrust.net", "*.geotrust.com", "*.omniroot.com", "*.public-trust.com", "*.symcb.com", "*.symcd.com", "*.verisign.com", "*.verisign.net", "apps.identrust.com", "cacerts.digicert.com", "cert.int-x3.letsencrypt.org", "crl.globalsign.com", "crl.globalsign.net", "crl.identrust.com", "crl.microsoft.com", "crl3.digicert.com", "crl4.digicert.com", "isrg.trustid.ocsp.identrust.com", "mscrl.microsoft.com", "ocsp.digicert.com", "ocsp.globalsign.com", "ocsp.msocsp.com", "ocsp2.globalsign.com", "ocspx.digicert.com", "secure.globalsign.com", "www.digicert.com", "www.microsoft.com" ]
@@ -677,7 +593,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.entrust.net", "*.geotrust.com", "*.omniroot.com", "*.public-trust.com", "*.symcb.com", "*.symcd.com", "*.verisign.com", "*.verisign.net", "apps.identrust.com", "cacerts.digicert.com", "cert.int-x3.letsencrypt.org", "crl.globalsign.com", "crl.globalsign.net", "crl.identrust.com", "crl.microsoft.com", "crl3.digicert.com", "crl4.digicert.com", "isrg.trustid.ocsp.identrust.com", "mscrl.microsoft.com", "ocsp.digicert.com", "ocsp.globalsign.com", "ocsp.msocsp.com", "ocsp2.globalsign.com", "ocspx.digicert.com", "secure.globalsign.com", "www.digicert.com", "www.microsoft.com" ]
@@ -685,7 +600,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.skype.com" ]
@@ -693,7 +607,6 @@
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.skype.com" ]
@@ -701,7 +614,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.config.office.net", "*.manage.microsoft.com" ]
@@ -709,7 +621,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "*.office.com" ]
@@ -717,7 +628,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.office.com" ]
@@ -725,7 +635,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "cdnprod.myanalytics.microsoft.com", "myanalytics.microsoft.com", "myanalytics-gcc.microsoft.com" ]
@@ -733,7 +642,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "cdnprod.myanalytics.microsoft.com", "myanalytics.microsoft.com", "myanalytics-gcc.microsoft.com" ]
@@ -741,7 +649,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "workplaceanalytics.cdn.office.net" ]
@@ -749,7 +656,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "workplaceanalytics.cdn.office.net" ]
@@ -757,7 +663,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.azure-apim.net", "*.flow.microsoft.com", "*.powerapps.com" ]
@@ -765,7 +670,6 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "autodiscover.*.onmicrosoft.com" ]
@@ -773,7 +677,6 @@
     "process" : "/Applications/Microsoft Outlook.app/Contents/MacOS/Microsoft Outlook",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "autodiscover.*.onmicrosoft.com" ]
@@ -781,7 +684,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "activity.windows.com" ]
@@ -789,7 +691,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "ocsp.int-x3.letsencrypt.org" ]
@@ -797,7 +698,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "*.cortana.ai" ]
@@ -805,7 +705,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "admin.microsoft.com", "portal.microsoftonline.com" ]
@@ -813,7 +712,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "admin.microsoft.com", "portal.microsoftonline.com" ]
@@ -821,7 +719,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "80",
     "protocol" : "tcp",
     "remote-domains" : [ "cdn.odc.officeapps.live.com", "cdn.uci.officeapps.live.com" ]
@@ -829,7 +726,6 @@
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
-    "owner" : "me",
     "ports" : "443",
     "protocol" : "tcp",
     "remote-domains" : [ "cdn.odc.officeapps.live.com", "cdn.uci.officeapps.live.com" ]
