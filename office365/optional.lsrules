@@ -55,7 +55,7 @@
     "protocol" : "tcp",
     "notes" : "Exchange Online POP3 migration",
     "remote-domains" : [ "*.outlook.office.com", "outlook.office365.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
@@ -64,7 +64,7 @@
     "protocol" : "tcp",
     "notes" : "Federation with Skype and public IM connectivity: Contact picture retrieval",
     "remote-domains" : [ "*.users.storage.live.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
@@ -73,7 +73,7 @@
     "protocol" : "tcp",
     "notes" : "Applies only to those who deploy the Conference Room Systems",
     "remote-domains" : [ "*.adl.windows.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
@@ -100,7 +100,7 @@
     "protocol" : "tcp",
     "notes" : "Teams: Messaging interop with Skype for Business",
     "remote-domains" : [ "*.skypeforbusiness.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
@@ -109,7 +109,7 @@
     "protocol" : "tcp",
     "notes" : "Yammer third-party integration",
     "remote-domains" : [ "*.tenor.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
     "direction" : "outgoing",
     "action" : "allow",
@@ -118,7 +118,7 @@
     "protocol" : "tcp",
     "notes" : "Yammer third-party integration",
     "remote-domains" : [ "*.tenor.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
@@ -127,7 +127,7 @@
     "protocol" : "tcp",
     "notes" : "OneDrive for Business: supportability, telemetry, APIs, and embedded email links",
     "remote-domains" : [ "*.log.optimizely.com", "ssw.live.com", "storage.live.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
@@ -136,7 +136,7 @@
     "protocol" : "tcp",
     "notes" : "SharePoint Hybrid Search - Endpoint to SearchContentService where the hybrid crawler feeds documents",
     "remote-domains" : [ "*.search.production.apac.trafficmanager.net", "*.search.production.emea.trafficmanager.net", "*.search.production.us.trafficmanager.net" ]
-  }, null, {
+  }, {
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
@@ -145,7 +145,7 @@
     "protocol" : "tcp",
     "notes" : "SharePoint Online: auxiliary URLs",
     "remote-domains" : [ "prod.msocdn.com", "watson.telemetry.microsoft.com" ]
-  }, null, {
+  }, {
     "process" : "/Applications/OneDrive.app/Contents/MacOS/OneDrive",
     "direction" : "outgoing",
     "action" : "allow",
@@ -154,7 +154,7 @@
     "protocol" : "tcp",
     "notes" : "SharePoint Online: auxiliary URLs",
     "remote-domains" : [ "prod.msocdn.com", "watson.telemetry.microsoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -163,7 +163,7 @@
     "protocol" : "tcp",
     "notes" : "Office 365 Video CDNs",
     "remote-domains" : [ "ajax.aspnetcdn.com", "r3.res.outlook.com", "spoprod-a.akamaihd.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -172,7 +172,7 @@
     "protocol" : "tcp",
     "notes" : "Microsoft Stream",
     "remote-domains" : [ "*.microsoftstream.com", "amp.azure.net", "s0.assets-yammer.com", "vortex.data.microsoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -181,7 +181,7 @@
     "protocol" : "tcp",
     "notes" : "Microsoft Stream CDN",
     "remote-domains" : [ "amsglob0cdnstream13.azureedge.net", "amsglob0cdnstream14.azureedge.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -190,7 +190,7 @@
     "protocol" : "tcp",
     "notes" : "Microsoft Stream 3rd party integration (including CDNs)",
     "remote-domains" : [ "nps.onyx.azure.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -199,7 +199,7 @@
     "protocol" : "tcp",
     "notes" : "Microsoft Stream - unauthenticated",
     "remote-domains" : [ "*.azureedge.net", "*.media.azure.net", "*.streaming.mediaservices.windows.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -208,7 +208,7 @@
     "protocol" : "tcp",
     "notes" : "Office 365 Video",
     "remote-domains" : [ "*.keydelivery.mediaservices.windows.net", "*.streaming.mediaservices.windows.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -217,7 +217,7 @@
     "protocol" : "tcp",
     "notes" : "OneNote notebooks (wildcards)",
     "remote-domains" : [ "*.microsoft.com", "*.msecnd.net", "*.office.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -226,7 +226,7 @@
     "protocol" : "tcp",
     "notes" : "OneNote 3rd party supporting services and CDNs",
     "remote-domains" : [ "ad.atdmt.com", "s.ytimg.com", "www.youtube.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -235,7 +235,7 @@
     "protocol" : "tcp",
     "notes" : "Security and Compliance Center eDiscovery export",
     "remote-domains" : [ "*.blob.core.windows.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -244,7 +244,7 @@
     "protocol" : "tcp",
     "notes" : "Portal and shared: 3rd party office integration. (including CDNs)",
     "remote-domains" : [ "*.helpshift.com", "*.localytics.com", "analytics.localytics.com", "api.localytics.com", "connect.facebook.net", "firstpartyapps.oaspapps.com", "outlook.uservoice.com", "prod.firstpartyapps.oaspapps.com.akadns.net", "rink.hockeyapp.net", "sdk.hockeyapp.net", "telemetryservice.firstpartyapps.oaspapps.com", "web.localytics.com", "webanalytics.localytics.com", "wus-firstpartyapps.oaspapps.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -253,7 +253,7 @@
     "protocol" : "tcp",
     "notes" : "Azure Rights Management (RMS) with Office 2010 clients",
     "remote-domains" : [ "*.cloudapp.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -262,7 +262,7 @@
     "protocol" : "tcp",
     "notes" : "Remote Connectivity Analyzer - Initiate connectivity tests.",
     "remote-domains" : [ "testconnectivity.microsoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -271,7 +271,7 @@
     "protocol" : "tcp",
     "notes" : "Remote Connectivity Analyzer - Initiate connectivity tests.",
     "remote-domains" : [ "testconnectivity.microsoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -280,7 +280,7 @@
     "protocol" : "tcp",
     "notes" : "Graph.windows.net, Office 365 Management Pack for Operations Manager, SecureScore, Azure AD Device Registration, Forms, StaffHub, Application Insights, captcha services",
     "remote-domains" : [ "*.hockeyapp.net", "*.sharepointonline.com", "cdn.forms.office.net", "dc.applicationinsights.microsoft.com", "dc.services.visualstudio.com", "forms.microsoft.com", "mem.gfx.ms", "office365servicehealthcommunications.cloudapp.net", "signup.microsoft.com", "staffhub.ms", "staffhub.uservoice.com", "staffhubweb.azureedge.net", "watson.telemetry.microsoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -289,7 +289,7 @@
     "protocol" : "tcp",
     "notes" : "Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards.",
     "remote-domains" : [ "*.microsoft.com", "*.msocdn.com", "*.office.net", "*.onmicrosoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -298,7 +298,7 @@
     "protocol" : "tcp",
     "notes" : "Some Office 365 features require endpoints within these domains (including CDNs). Many specific FQDNs within these wildcards have been published recently as we work to either remove or better explain our guidance relating to these wildcards.",
     "remote-domains" : [ "*.microsoft.com", "*.msocdn.com", "*.office.net", "*.onmicrosoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -307,7 +307,7 @@
     "protocol" : "tcp",
     "notes" : "ProPlus: auxiliary URLs",
     "remote-domains" : [ "*.virtualearth.net", "ajax.microsoft.com", "c.bing.net", "excelbingmap.firstpartyapps.oaspapps.com", "ocos-office365-s2s.msedge.net", "omextemplates.content.office.net", "peoplegraph.firstpartyapps.oaspapps.com", "tse1.mm.bing.net", "watson.microsoft.com", "wikipedia.firstpartyapps.oaspapps.com", "www.bing.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -316,7 +316,7 @@
     "protocol" : "tcp",
     "notes" : "ProPlus: auxiliary URLs",
     "remote-domains" : [ "*.virtualearth.net", "ajax.microsoft.com", "c.bing.net", "excelbingmap.firstpartyapps.oaspapps.com", "ocos-office365-s2s.msedge.net", "omextemplates.content.office.net", "peoplegraph.firstpartyapps.oaspapps.com", "tse1.mm.bing.net", "watson.microsoft.com", "wikipedia.firstpartyapps.oaspapps.com", "www.bing.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -325,7 +325,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS",
     "remote-domains" : [ "*.acompli.net", "*.outlookmobile.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -334,7 +334,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Authentication",
     "remote-domains" : [ "*.manage.microsoft.com", "api.office.com", "go.microsoft.com", "login.windows-ppe.net", "secure.aadcdn.microsoftonline-p.com", "vortex.data.microsoft.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -343,7 +343,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Consumer Outlook.com and OneDrive integration",
     "remote-domains" : [ "account.live.com", "apis.live.net", "auth.gfx.ms", "login.live.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -352,7 +352,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Google integration",
     "remote-domains" : [ "accounts.google.com", "mail.google.com", "www.googleapis.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -361,7 +361,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Yahoo integration",
     "remote-domains" : [ "api.login.yahoo.com", "social.yahooapis.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -370,7 +370,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: DropBox integration",
     "remote-domains" : [ "api.dropboxapi.com", "www.dropbox.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -379,7 +379,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Box integration",
     "remote-domains" : [ "app.box.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -388,7 +388,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Facebook integration",
     "remote-domains" : [ "graph.facebook.com", "m.facebook.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -397,7 +397,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Evernote integration",
     "remote-domains" : [ "www.evernote.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -406,7 +406,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Outlook Privacy",
     "remote-domains" : [ "bit.ly", "www.acompli.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -415,7 +415,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: User voice integration",
     "remote-domains" : [ "by.uservoice.com", "outlook.uservoice.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -424,7 +424,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Flurry log integration",
     "remote-domains" : [ "data.flurry.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -433,7 +433,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Adjust integration",
     "remote-domains" : [ "app.adjust.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -442,7 +442,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Hockey log integration",
     "remote-domains" : [ "rink.hockeyapp.net", "sdk.hockeyapp.net" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -451,7 +451,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Helpshift integration",
     "remote-domains" : [ "acompli.helpshift.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -460,7 +460,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Play Store integration (Android only)",
     "remote-domains" : [ "play.google.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -469,7 +469,7 @@
     "protocol" : "tcp",
     "notes" : "Office Mobile URLs",
     "remote-domains" : [ "*.appex.bing.com", "*.appex-rf.msn.com", "*.itunes.apple.com", "c.bing.com", "c.live.com", "cl2.apple.com", "d.docs.live.net", "directory.services.live.com", "docs.live.net", "en-us.appex-rf.msn.com", "foodanddrink.services.appex.bing.com", "office.microsoft.com", "partnerservices.getmicrosoftkey.com", "sas.office.microsoft.com", "signup.live.com", "view.atdmt.com", "watson.telemetry.microsoft.com", "weather.tile.appex.bing.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -478,7 +478,7 @@
     "protocol" : "tcp",
     "notes" : "Office Mobile URLs",
     "remote-domains" : [ "*.appex.bing.com", "*.appex-rf.msn.com", "*.itunes.apple.com", "c.bing.com", "c.live.com", "cl2.apple.com", "d.docs.live.net", "directory.services.live.com", "docs.live.net", "en-us.appex-rf.msn.com", "foodanddrink.services.appex.bing.com", "office.microsoft.com", "partnerservices.getmicrosoftkey.com", "sas.office.microsoft.com", "signup.live.com", "view.atdmt.com", "watson.telemetry.microsoft.com", "weather.tile.appex.bing.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -487,7 +487,7 @@
     "protocol" : "tcp",
     "notes" : "Outlook for Android and iOS: Meetup integration",
     "remote-domains" : [ "api.meetup.com", "secure.meetup.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -496,7 +496,7 @@
     "protocol" : "tcp",
     "notes" : "Office for iPad URLs",
     "remote-domains" : [ "account.live.com", "auth.gfx.ms", "c.bing.com", "c.live.com", "cl2.apple.com", "directory.services.live.com", "docs.live.net", "en-us.appex-rf.msn.com", "foodanddrink.services.appex.bing.com", "go.microsoft.com", "login.live.com", "office.microsoft.com", "p100-sandbox.itunes.apple.com", "partnerservices.getmicrosoftkey.com", "roaming.officeapps.live.com", "sas.office.microsoft.com", "signup.live.com", "view.atdmt.com", "watson.telemetry.microsoft.com", "weather.tile.appex.bing.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -505,7 +505,7 @@
     "protocol" : "tcp",
     "notes" : "Office for iPad URLs",
     "remote-domains" : [ "account.live.com", "auth.gfx.ms", "c.bing.com", "c.live.com", "cl2.apple.com", "directory.services.live.com", "docs.live.net", "en-us.appex-rf.msn.com", "foodanddrink.services.appex.bing.com", "go.microsoft.com", "login.live.com", "office.microsoft.com", "p100-sandbox.itunes.apple.com", "partnerservices.getmicrosoftkey.com", "roaming.officeapps.live.com", "sas.office.microsoft.com", "signup.live.com", "view.atdmt.com", "watson.telemetry.microsoft.com", "weather.tile.appex.bing.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -514,7 +514,7 @@
     "protocol" : "tcp",
     "notes" : "Yammer",
     "remote-domains" : [ "*.yammer.com", "*.yammerusercontent.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -523,7 +523,7 @@
     "protocol" : "tcp",
     "notes" : "Yammer CDN",
     "remote-domains" : [ "*.assets-yammer.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -532,7 +532,7 @@
     "protocol" : "tcp",
     "notes" : "Planner CDNs",
     "remote-domains" : [ "ajax.aspnetcdn.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -541,7 +541,7 @@
     "protocol" : "tcp",
     "notes" : "Planner: auxiliary URLs",
     "remote-domains" : [ "www.outlook.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -550,7 +550,7 @@
     "protocol" : "tcp",
     "notes" : "Planner: auxiliary URLs",
     "remote-domains" : [ "www.outlook.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -559,7 +559,7 @@
     "protocol" : "tcp",
     "notes" : "Sway CDNs",
     "remote-domains" : [ "eus-www.sway-cdn.com", "eus-www.sway-extensions.com", "wus-www.sway-cdn.com", "wus-www.sway-extensions.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -568,7 +568,7 @@
     "protocol" : "tcp",
     "notes" : "Sway website analytics",
     "remote-domains" : [ "www.google-analytics.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -577,7 +577,7 @@
     "protocol" : "tcp",
     "notes" : "Sway",
     "remote-domains" : [ "sway.com", "www.sway.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -586,7 +586,7 @@
     "protocol" : "tcp",
     "notes" : "Connection to the speech service is required for Office Dictation features. If connectivity is not allowed, Dictation will be disabled.",
     "remote-domains" : [ "officespeech.platform.bing.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
@@ -595,7 +595,7 @@
     "protocol" : "tcp",
     "notes" : "Blocking these endpoints will affect the ability to access the Office 365 ProPlus deployment and management features via the portal.",
     "remote-domains" : [ "*.officeconfig.msocdn.com" ]
-  }, null, {
+  }, {
     "process" : "any",
     "direction" : "outgoing",
     "action" : "allow",
